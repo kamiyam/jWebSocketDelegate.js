@@ -9,7 +9,7 @@
 var jWebSocketDelegate = function( hostpath, isAutoStart )
 {	
 	//デフォルトはfalse
-	isAutoStart = isAutoStart || false;
+	isAutoStart = isAutoStart || true;
 	
 	//websocket
 	var ws;
